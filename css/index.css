@@ -1,0 +1,10 @@
+.box{width: 960px;height: 640px;margin: 10px auto;}
+.box a{width:300px;height: 200px;margin-right: 20px;margin-bottom: 20px;display: block;float: left;overflow: hidden;}
+.box a:nth-child(3n+3){margin-right: 0;}
+.box a img{width: 100%;height: 100%;}
+.bgGray{display: none;width: 100%;height: 100%;background: rgba(0,0,0,0.8);position: fixed;top: 0;left: 0;}
+.showBiggerImg{display: none;width:960px;height: 600px;position: fixed;top: 50%;left: 50%;margin-left: -480px;margin-top: -300px;text-align: center;line-height: 600px;}
+.showBiggerImg .btn{position: absolute; top:260px;}
+.showBiggerImg .prev{left: -80px;}
+.showBiggerImg .next{right:-80px;}
+.showBiggerImg .bigImage{vertical-align: middle;max-height: 100%;max-width: 100%;border: 3px solid #FFF;}
